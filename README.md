@@ -16,8 +16,8 @@ uMODULAR modules are made to interface with all major common protocols for audio
 ## Libraries
 The collection of libraries make it possible to construct synthesizers, sequencers, effect box, message routers or integrate and sync your performance music setup with video, ligths, motors, sensors or whatever you feel good about using the protocolar layer of uMODULAR:
 
-1. **Clock**
-2. Multi-track Step Sequencer
+1. **Clock**: BPM based Clock Generator Library to implement BPM clock tick calls using **hardware interruption** for Arduinos based on 168, 328, 16u4 and 32u4 microcontrollers.
+2. Multitrack Step Sequencer
 3. Remote
 4. DSPs (Harmonizer, Arppregio, Euclidian, LFO)
 
