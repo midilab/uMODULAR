@@ -1,9 +1,35 @@
 # uMODULAR
 
-uMODULAR is a **hardware** and **software** modular environment for **audio and visual arts**.
-A collection of usefull and **reusable modules** to be combined for a **fast development** of **digital art projects**.
+uMODULAR is a **hardware** and **software** modular environment for **audio and visual** projects.
+A collection of usefull and **reusable modules** to be combined for a **fast development** of your audio/video project.
 
 On the roadmap, only the bold modules are avaliable for now. Keep in touch for the release of new modules and hardware schematics.
+
+## Hardware
+Physical modules released under CC-BY-SA avaliable as Single Sided PCB to be etched at home to make your own audio/video/sensorial device controller:
+
+### Shileds
+The first shiled relased is for the Arduino Micro and Mini series, the project have plans to support other boards also.
+
+**Arduino Micro and Mini 5v Compatible**
+
+![Image of Arduino Micro and Mini uMODULAR Shiled](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/shiled/arduino_micro_mini/umodular_shiled_amm-topview.png)
+
+### IO Interfaces 
+Potentiometers, Faders and Buttons/Leds.
+
+### Midi Interface
+Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
+
+### OSC Interface 
+Either Ethernet or Wifi modules.
+
+### CV Interface
+8 Channels general purprose CV/GATE with 10bit DAC
+
+### DMX Interface
+On the roadmap.
+
 
 ## Protocol Interfaces
 uMODULAR modules are made to interface with all major common protocols for audio and video on the market:
@@ -13,6 +39,7 @@ uMODULAR modules are made to interface with all major common protocols for audio
 3. CV
 4. DMX
 
+
 ## Libraries
 The collection of libraries make it possible to construct synthesizers, sequencers, effect box, message routers or integrate and sync your performance music setup with video, ligths, motors, sensors or whatever you feel good about using the protocolar layer of uMODULAR:
 
@@ -21,15 +48,6 @@ The collection of libraries make it possible to construct synthesizers, sequence
 3. Remote
 4. DSPs (Harmonizer, Arppregio, Euclidian, LFO)
 
-## Hardware
-Physical modules to make your own audio/video/sensorial device controller:
-
-1. Shiled
-2. IO Interfaces: Pots, Faders and Buttons/Leds
-3. Midi Interface
-4. OSC Interface: Ethernet and Wifi
-5. CV Interface: CV/GATE
-6. DMX Interface
 
 ## Applications
 Real world applications using the uMODULAR framework:
