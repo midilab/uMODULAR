@@ -27,7 +27,9 @@ Input and Output interfaces to interact with the world
 Buttons/Leds.
 
 ### Midi Interface
-Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
+
+**Midi4** Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
+![Image of uMODULAR Midi4](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/midi4/umodular_midi4-topview.png)
 
 ### OSC Interface 
 Either Ethernet or Wifi modules.
