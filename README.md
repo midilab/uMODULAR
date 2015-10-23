@@ -1,7 +1,7 @@
 # uMODULAR
 
-uMODULAR is a **hardware** and **software** modular environment for **audio and visual** projects.
-A collection of usefull and **reusable modules** to be combined for a **fast development** of your audio/video project.
+uMODULAR is a **hardware** and **software** modular environment for **audio and visual** controller projects.
+A collection of usefull and **reusable modules** to be combined for a **fast development** of your audio/video controller project.
 
 On the roadmap, only the bold modules are avaliable for now. Keep in touch for the release of new modules and hardware schematics.
 
@@ -16,7 +16,12 @@ The first shiled relased is for the Arduino Micro and Mini series, the project h
 ![Image of Arduino Micro and Mini uMODULAR Shiled](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/shiled/arduino_micro_mini/umodular_shiled_amm-topview.png)
 
 ### IO Interfaces 
-Potentiometers, Faders and Buttons/Leds.
+Input and Output interfaces to interact with the world
+
+**Fader8 - 8 x 60mm faders  module**
+![Image of uMODULAR Fader8](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/fader8/umodular_fader8-topview.png)
+
+Potentiometers and Buttons/Leds.
 
 ### Midi Interface
 Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
