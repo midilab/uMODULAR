@@ -18,10 +18,13 @@ The first shiled relased is for the Arduino Micro and Mini series, the project h
 ### IO Interfaces 
 Input and Output interfaces to interact with the world
 
-**Fader8 - 8 x 60mm faders  module**
+**Fader8** 8 x 60mm faders module - designed for Bourns PTA6043-2015DPB103 part.
 ![Image of uMODULAR Fader8](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/fader8/umodular_fader8-topview.png)
 
-Potentiometers and Buttons/Leds.
+**Pot8** 8 x potentiometers module - designed for best fit on Bourns PTV09A-4015F-B103 part. But it fits for almost all 10KB potentiometer models.
+![Image of uMODULAR Pot8](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/pot8/umodular_pot8-topview.png)
+
+Buttons/Leds.
 
 ### Midi Interface
 Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
