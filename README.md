@@ -1,12 +1,16 @@
 # uMODULAR
 
-uMODULAR is a **hardware** and **software** modular environment for **audio and visual** controller projects.
-A collection of usefull and **reusable modules** to be combined for a **fast development** of your audio/video controller project.
+uMODULAR is a **hardware** and **software** collection of usefull and **reusable DIY modules** focused on **audio and visual** technology usage.
+
+The modular architecture make it easier to **create and build** your own **controller** and/or **signal processing box** for the control and/or integration of **different audio and video protocols** setups.
+
+All the hardware and software modules are designed with interoperability in mind, so you can possibly write your self a sequencer that controls events for MIDI, OSC, CV, DMX and a mechanical device - like a robot - all together in the painless possible way.
 
 On the roadmap, only the bold modules are avaliable for now. Keep in touch for the release of new modules and hardware schematics.
 
 ## Hardware
-Physical modules released under CC-BY-SA avaliable as Single Sided PCB to be etched at home to make your own audio/video/sensorial device controller:
+
+Physical modules released under CC-BY-SA 4.0 avaliable as Single Sided PCB to be etched at home to make your own audio/video/sensorial device controller or signal processing box.
 
 ### Shileds
 The first shiled relased is for the Arduino Micro and Mini series, the project have plans to support other boards also.
@@ -18,18 +22,21 @@ The first shiled relased is for the Arduino Micro and Mini series, the project h
 ### IO Interfaces 
 Input and Output interfaces to interact with the world
 
-**Fader8** 8 x 60mm faders module - designed for Bourns PTA6043-2015DPB103 part.
+**FADER8**
 ![Image of uMODULAR Fader8](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/fader8/umodular_fader8-topview.png)
+*8 x 60mm faders module - designed for Bourns PTA6043-2015DPB103 part.*
 
-**Pot8** 8 x potentiometers module - designed for best fit on Bourns PTV09A-4015F-B103 part. But it fits for almost all 10KB potentiometer models.
+**POT8**
 ![Image of uMODULAR Pot8](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/pot8/umodular_pot8-topview.png)
+*8 x potentiometers module - designed for Bourns PTV09A-4015F-B103 part. But it fits for almost all 10KB through hole potentiometer models.*
 
 Buttons/Leds.
 
 ### Midi Interface
 
-**Midi4** Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.
+**Midi4**
 ![Image of uMODULAR Midi4](https://raw.githubusercontent.com/midilab/uMODULAR/master/hardware/midi4/umodular_midi4-topview.png)
+*Common MIDI interface with support for 2 MIDI Inputs and 2 MIDI Outputs.*
 
 ### OSC Interface 
 Either Ethernet or Wifi modules.
