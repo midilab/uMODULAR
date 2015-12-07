@@ -138,12 +138,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="49.84" y2="0" width="0" layer="20"/>
-<wire x1="49.84" y1="0" x2="49.84" y2="100.07" width="0" layer="20"/>
-<wire x1="49.84" y1="100.07" x2="0" y2="100.07" width="0" layer="20"/>
-<wire x1="0" y1="100.07" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="20"/>
+<wire x1="50" y1="0" x2="50" y2="100" width="0" layer="20"/>
+<wire x1="50" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <text x="31" y="1.375" size="1.016" layer="26" font="vector" rot="MR0">uMODULAR
-Shield rev. 0.1
+Shield rev. 0.2
 CC-BY-SA 4
 Romulo Silva
 http://midilab.co</text>
