@@ -138,13 +138,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="199.98" y2="0" width="0" layer="20"/>
-<wire x1="199.98" y1="0" x2="199.98" y2="80" width="0" layer="20"/>
-<wire x1="199.98" y1="80" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="200" y2="0" width="0" layer="20"/>
+<wire x1="200" y1="0" x2="200" y2="80" width="0" layer="20"/>
+<wire x1="200" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="1.75" y="59" size="1.4224" layer="27" font="vector" rot="R270">uMODULAR Fader8 rev. 0.1
+<text x="1.75" y="59" size="1.4224" layer="27" font="vector" rot="R270">uMODULAR Fader8 rev. 0.2
 CC-BY-SA - Romulo Silva http://midilab.co</text>
-<text x="198" y="59" size="1.4224" layer="26" font="vector" rot="MR270">uMODULAR Fader8 rev. 0.1
+<text x="198" y="59" size="1.4224" layer="16" font="vector" rot="MR270">uMODULAR Fader8 rev. 0.2
 CC-BY-SA - Romulo Silva http://midilab.co</text>
 </plain>
 <libraries>
@@ -1416,7 +1416,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="SparkFun-Aesthetics2">
+<library name="SparkFun-Aesthetics3">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -1424,7 +1424,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="22">
+<polygon width="0.15" layer="16">
 <vertex x="0.6578" y="-1.588" curve="9.499253"/>
 <vertex x="0.9108" y="-1.4576"/>
 <vertex x="1.5392" y="-1.97"/>
@@ -1680,7 +1680,7 @@ design rules under a new name.</description>
 <element name="U$7" library="holes" package="3,0" value="" x="125" y="67.5"/>
 <element name="U$8" library="holes" package="3,0" value="" x="125" y="12.5"/>
 <element name="U$9" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="3.75" y="5.75"/>
-<element name="U$10" library="SparkFun-Aesthetics2" package="OSHW-LOGO-M" value="" x="196.25" y="5.75"/>
+<element name="U$10" library="SparkFun-Aesthetics3" package="OSHW-LOGO-M" value="" x="196.25" y="5.75"/>
 </elements>
 <signals>
 <signal name="GND">
