@@ -137,13 +137,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.5" y1="0" x2="200" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="200" y2="0" width="0" layer="20"/>
 <wire x1="200" y1="0" x2="200" y2="25" width="0" layer="20"/>
-<wire x1="200" y1="25" x2="0.5" y2="25" width="0" layer="20"/>
-<wire x1="0.5" y1="25" x2="0.5" y2="0" width="0" layer="20"/>
-<text x="109.875" y="19.625" size="1.6764" layer="25" font="fixed">     uMODULAR Pot8 rev. 0.1
+<wire x1="200" y1="25" x2="0" y2="25" width="0" layer="20"/>
+<wire x1="0" y1="25" x2="0" y2="0" width="0" layer="20"/>
+<text x="109.875" y="19.625" size="1.6764" layer="25" font="fixed">     uMODULAR Pot8 rev. 0.2
      CC-BY-SA 4 - Romulo Silva http://midilab.co</text>
-<text x="190.125" y="19.625" size="1.6764" layer="16" font="fixed" rot="MR0">     uMODULAR Pot8 rev. 0.1
+<text x="190.125" y="19.625" size="1.6764" layer="16" font="fixed" rot="MR0">     uMODULAR Pot8 rev. 0.2
      CC-BY-SA 4 - Romulo Silva http://midilab.co</text>
 </plain>
 <libraries>
