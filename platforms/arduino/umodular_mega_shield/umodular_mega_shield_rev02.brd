@@ -164,7 +164,7 @@
 CC-BY-SA 4
 Romulo Silva
 http://midilab.co</text>
-<text x="29.2" y="35.25" size="1.27" layer="25" rot="R90">uMODULAR Arduino Mega Shield  rev. 0.2
+<text x="29.2" y="35.25" size="1.27" layer="25" rot="R90">uMODULAR Arduino Mega Shield
 
 by Romulo Silva - http://midilab.co</text>
 </plain>
@@ -2731,7 +2731,7 @@ design rules under a new name.</description>
 </element>
 <element name="POWER" library="SparkFun-Connectors" package="1X02_LOCK_LONGPADS" value="+5V" x="25.83" y="75.7" smashed="yes">
 <attribute name="NAME" x="24.56" y="77.351" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="24.89" y="73.394" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="VALUE" x="24.63" y="73.394" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 </elements>
 <signals>
