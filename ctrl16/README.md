@@ -26,12 +26,12 @@ ctrl16 is a 10cmx12.5cm PCB module for uMODULAR platform ready for 16 potentiome
 **4x** 50V 100nf(.1uF) <br />
 
 ### Metal Film Resistors 1/4W Resistors
-**8x** 220
-**9x** 10k
+**8x** 220 <br />
+**9x** 10k <br />
 
 ### Headers & Wire Housings 
-**4x** 05+05 DIL VERTICAL PIN HEADER
+**4x** 05+05 DIL VERTICAL PIN HEADER <br />
 
 ### Cable connection for uMODULAR base shield
-**pick your size** Ribbon Cable 10 Conductors 28 AWG .050 
-**8x** Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch
+**pick your size** Ribbon Cable 10 Conductors 28 AWG .050 <br />
+**8x** Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch <br />
