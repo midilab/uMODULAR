@@ -3960,7 +3960,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <parts>
 <part name="ANALOG_2" library="con-lstb" deviceset="MA05-2" device=""/>
 <part name="IC2" library="40xx" deviceset="4051" device="N"/>
-<part name="C1" library="rcl" deviceset="C-US" device="050-024X044" value="100 nF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="050-024X044" value="100 nF"/>
 <part name="POT_13" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
 <part name="POT_14" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
 <part name="POT_15" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
@@ -3971,7 +3971,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="POT_9" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
 <part name="ANALOG_1" library="con-lstb" deviceset="MA05-2" device=""/>
 <part name="IC1" library="40xx" deviceset="4051" device="N"/>
-<part name="C2" library="rcl" deviceset="C-US" device="050-024X044" value="100 nF"/>
+<part name="C1" library="rcl" deviceset="C-US" device="050-024X044" value="100 nF"/>
 <part name="POT_5" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
 <part name="POT_6" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
 <part name="POT_7" library="SparkFun-Electromechanical_mod" deviceset="POT" device="" value="10kb"/>
@@ -3989,7 +3989,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="ANALOG_2" gate="G$1" x="304.8" y="154.94"/>
 <instance part="IC2" gate="A" x="304.8" y="213.36" rot="R180"/>
 <instance part="IC2" gate="P" x="304.8" y="238.76" rot="R270"/>
-<instance part="C1" gate="G$1" x="317.5" y="246.38" rot="R180"/>
+<instance part="C2" gate="G$1" x="317.5" y="246.38" rot="R180"/>
 <instance part="POT_13" gate="G$1" x="373.38" y="208.28" rot="R90"/>
 <instance part="POT_14" gate="G$1" x="373.38" y="215.9" rot="R90"/>
 <instance part="POT_15" gate="G$1" x="373.38" y="223.52" rot="R90"/>
@@ -4001,7 +4001,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="ANALOG_1" gate="G$1" x="147.32" y="152.4"/>
 <instance part="IC1" gate="A" x="147.32" y="210.82" rot="R180"/>
 <instance part="IC1" gate="P" x="147.32" y="236.22" rot="R270"/>
-<instance part="C2" gate="G$1" x="160.02" y="243.84" rot="R180"/>
+<instance part="C1" gate="G$1" x="160.02" y="243.84" rot="R180"/>
 <instance part="POT_5" gate="G$1" x="215.9" y="205.74" rot="R90"/>
 <instance part="POT_6" gate="G$1" x="215.9" y="213.36" rot="R90"/>
 <instance part="POT_7" gate="G$1" x="215.9" y="220.98" rot="R90"/>
@@ -4050,7 +4050,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="IC2" gate="P" pin="VCC"/>
 <wire x1="312.42" y1="238.76" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
 <label x="325.12" y="238.76" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="238.76" x2="330.2" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="243.84" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
 </segment>
@@ -4089,7 +4089,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="IC1" gate="P" pin="VCC"/>
 <wire x1="154.94" y1="236.22" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
 <label x="167.64" y="236.22" size="1.778" layer="95"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="236.22" x2="172.72" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="241.3" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
 </segment>
@@ -4249,7 +4249,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="365.76" y="177.8"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="251.46" x2="317.5" y2="259.08" width="0.1524" layer="91"/>
 <label x="317.5" y="259.08" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -4300,7 +4300,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="208.28" y="175.26"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="248.92" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
 <label x="160.02" y="256.54" size="1.778" layer="95" rot="R90"/>
 </segment>
