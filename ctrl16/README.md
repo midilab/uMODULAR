@@ -7,32 +7,31 @@ ctrl16 is a 10cmx12.5cm PCB module for uMODULAR platform ready for 16 potentiome
 
 ## BOM list
 
-Buttons
-Tactile Switches 6.0X4.3MM 160G x8
+### Buttons
+**8x** Tactile Switches 6.0X4.3MM 160G <br />
 
-Leds
-Through Hole Diffused T-1 (3 mm) x8
+### Leds
+**8x** Through Hole Diffused T-1 (3 mm) <br />
 
-Potentiometers
-10K LINEAR 20%(Bourns PTV09A-4015F-B103) x16
+### Potentiometers
+**16x** 10K LINEAR 20%(Bourns PTV09A-4015F-B103) <br />
 
-ICs
-CD4051BE x2
-74HC595N x1
-74HC165N x1
-Socket 16P DUAL WIPE x4
+### ICs
+**2x** CD4051BE <br />
+**1x** 74HC595N <br />
+**1x** 74HC165N <br />
+**4x** Socket 16P DUAL WIPE <br />
 
-Capacitors
-Ceramic Disc Capacitors 
-50V 100nf(.1uF) x4
+### Ceramic Disc Capacitors 
+**4x** 50V 100nf(.1uF) <br />
 
-Metal Film Resistors 1/4W Resistors
-220 x8
-10k x9
+### Metal Film Resistors 1/4W Resistors
+**8x** 220
+**9x** 10k
 
-Headers & Wire Housings 
-05+05 DIL VERTICAL PIN HEADER x4
+### Headers & Wire Housings 
+**4x** 05+05 DIL VERTICAL PIN HEADER
 
-Cable connection with uMODULAR base
-Ribbon Cable 10 Conductors 28 AWG .050 
-Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch x8
+### Cable connection for uMODULAR base shield
+**pick your size** Ribbon Cable 10 Conductors 28 AWG .050 
+**8x** Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch

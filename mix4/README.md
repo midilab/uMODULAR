@@ -7,34 +7,33 @@ mix4 is a 10cmx12.5cm PCB module for uMODULAR platform ready for 4 faders and 4 
 
 ## BOM list
 
-Buttons
-Tactile Switches 6.0X4.3MM 160G x8
+### Buttons
+**8x** Tactile Switches 6.0X4.3MM 160G <br />
 
-Leds
-Through Hole Diffused T-1 (3 mm) x8
+### Leds
+**8x** Through Hole Diffused T-1 (3 mm) <br />
 
-Potentiometers
-10K LINEAR 20% (Bourns PTV09A-4015F-B103) x4
-Slide 15MM SHAFT NO DET 60MM STRK SNG LIN (Bourns PTA6043-2015DPB103) x4
+### Potentiometers
+**4x** 10K LINEAR 20% (Bourns PTV09A-4015F-B103) <br />
+**4x** Slide 15MM SHAFT NO DET 60MM STRK SNG LIN (Bourns PTA6043-2015DPB103) <br />
 
-ICs
-CD4051BE x1
-74HC595N x1
-74HC165N x1
-Socket 16P DUAL WIPE x3
+### ICs
+**1x** CD4051BE <br />
+**1x** 74HC595N <br />
+**1x** 74HC165N <br />
+**3x** Socket 16P DUAL WIPE <br />
 
-Capacitors
-Ceramic Disc Capacitors
-50V 100nf(.1uF) x3
+### Ceramic Disc Capacitors
+**3x** 50V 100nf(.1uF) <br />
 
-Metal Film Resistors 1/4W Resistors
-220 x8
-10k x9
+### Metal Film Resistors 1/4W Resistors
+**8x** 220 <br />
+**9x** 10k <br />
 
-Headers & Wire Housings
-05+05 DIL VERTICAL PIN HEADER x3
+### Headers & Wire Housings
+**3x** 05+05 DIL VERTICAL PIN HEADER <br />
 
-Cable connection with uMODULAR base
-Ribbon Cable 10 Conductors 28 AWG .050
-Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch x6
+### Cable connection with uMODULAR base
+**pick your size** Ribbon Cable 10 Conductors 28 AWG .050
+**6x** Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch
 

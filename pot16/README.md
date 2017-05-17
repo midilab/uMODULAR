@@ -7,21 +7,20 @@ pot16 is a 10cmx10cm PCB module for uMODULAR platform ready for 16 potentiometer
 
 ## BOM list
 
-Potentiometers
-10K LINEAR 20%(Bourns PTV09A-4015F-B103) x16
+### Potentiometers
+**16x** 10K LINEAR 20%(Bourns PTV09A-4015F-B103) <br />
 
-ICs
-CD4051BE x2
-Socket 16P DUAL WIPE x2
+### ICs
+**2x** CD4051BE <br />
+**2x** Socket 16P DUAL WIPE <br />
 
-Capacitors
-Ceramic Disc Capacitors
-50V 100nf(.1uF) x2
+### Ceramic Disc Capacitors
+**2x** 50V 100nf(.1uF) <br />
 
-Headers & Wire Housings
-05+05 DIL VERTICAL PIN HEADER x2
+### Headers & Wire Housings
+**2x** 05+05 DIL VERTICAL PIN HEADER <br />
 
-Cable connection with uMODULAR base
-Ribbon Cable 10 Conductors 28 AWG .050
-Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch x4
+### Cable connection with uMODULAR base
+**pick your size** Ribbon Cable 10 Conductors 28 AWG .050 <br />
+**4x** Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch <br />
 
