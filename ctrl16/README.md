@@ -14,10 +14,10 @@ Leds
 Through Hole Diffused T-1 (3 mm) x8
 
 Potentiometers
-10K LINEAR 20% x16
+10K LINEAR 20%(Bourns PTV09A-4015F-B103) x16
 
 ICs
-CD4051 x2
+CD4051BE x2
 74HC595N x1
 74HC165N x1
 Socket 16P DUAL WIPE x4
@@ -36,6 +36,3 @@ Headers & Wire Housings
 Cable connection with uMODULAR base
 Ribbon Cable 10 Conductors 28 AWG .050 
 Female Ribbon Cable Header 10 Position, 2 rows, 2.54 mm pitch x8
-
-
-...
