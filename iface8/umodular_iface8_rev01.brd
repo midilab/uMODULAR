@@ -173,13 +173,14 @@
 <wire x1="99.995" y1="0" x2="99.995" y2="25" width="0" layer="20"/>
 <wire x1="99.995" y1="25" x2="0" y2="25" width="0" layer="20"/>
 <wire x1="0" y1="25" x2="0" y2="0" width="0" layer="20"/>
-<text x="7.65" y="12.805" size="0.8128" layer="16" font="vector" rot="MR180">uMODULAR iface8 rev. 0.2 
+<text x="7.55" y="13.455" size="0.8128" layer="16" font="vector" rot="MR180">uMODULAR iface8 rev. 0.2 
 CC-BY-SA 4
 by Romulo Silva - http://midilab.co</text>
-<text x="31.54" y="6.94" size="1.016" layer="25" rot="R180">by Romulo Silva - Midilab
+<text x="31.59" y="7.74" size="1.016" layer="25" rot="R180">by Romulo Silva - Midilab
 CC-BY-SA-4
- http://midilab.co/umodular</text>
+http://midilab.co/umodular</text>
 <text x="37.37" y="20.52" size="3.81" layer="25">&gt;iface8</text>
+<text x="7.45" y="32.85" size="1.778" layer="16" rot="MR0">testing</text>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -735,8 +736,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55.605" y="1.989" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="71" y="7.196" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="10.785" y="4.855"/>
-<element name="U$1" library="SparkFun-Aesthetics3" package="OSHW-LOGO-M" value="" x="19.945" y="15.81" smashed="yes"/>
+<element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="10.535" y="5.755"/>
+<element name="U$1" library="SparkFun-Aesthetics3" package="OSHW-LOGO-M" value="" x="19.945" y="16.76" smashed="yes"/>
 <element name="BTN6" library="Seeed-Switch-2016" package="SW4-SMD-4.2X3.2X2.5MM" value="DHT-4235A" x="57.5" y="8">
 <attribute name="MPN" value="DHT-4235A" x="57.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
@@ -794,7 +795,7 @@ design rules under a new name.</description>
 <element name="U4" library="SparkFun-IC-Logic" package="SO16" value="SN74HC165DR" x="49.99" y="4.49" rot="MR180">
 <attribute name="PROD_ID" value="IC-11325" x="49.99" y="4.49" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$3" library="tft_1.8_1.44_oled_0.96-mod" package="OLED_0.96_I2C" value="OLED_0.96_I2C" x="20" y="11"/>
+<element name="U$3" library="tft_1.8_1.44_oled_0.96-mod" package="OLED_0.96_I2C" value="OLED_0.96_I2C" x="20" y="11.65"/>
 <element name="U6" library="SparkFun-IC-Logic" package="SO16" value="SN74HC595D" x="49.99" y="20.5" rot="MR180">
 <attribute name="PROD_ID" value="IC-07875" x="49.99" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -916,7 +917,7 @@ design rules under a new name.</description>
 <wire x1="42.45" y1="3.509" x2="44.45" y2="6.925" width="0" layer="19" extent="1-16"/>
 <wire x1="46.815" y1="1.69" x2="42.45" y2="3.509" width="0" layer="19" extent="16-16"/>
 <wire x1="42.93" y1="20.941" x2="44.45" y2="15.925" width="0" layer="19" extent="1-16"/>
-<wire x1="18.37" y1="22.63" x2="42.93" y2="20.941" width="0" layer="19" extent="16-16"/>
+<wire x1="18.37" y1="23.28" x2="42.93" y2="20.941" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VCC">
 <contactref element="DIGITALIO" pad="9"/>
@@ -951,7 +952,7 @@ design rules under a new name.</description>
 <wire x1="42.93" y1="22.719" x2="45.545" y2="17.7" width="0" layer="19" extent="16-16"/>
 <wire x1="45.545" y1="1.69" x2="47.05" y2="9.658" width="0" layer="19" extent="16-16"/>
 <wire x1="42.45" y1="1.731" x2="45.545" y2="1.69" width="0" layer="19" extent="16-16"/>
-<wire x1="15.83" y1="22.63" x2="42.93" y2="22.719" width="0" layer="19" extent="16-16"/>
+<wire x1="15.83" y1="23.28" x2="42.93" y2="22.719" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SPI_CLOCK">
 <contactref element="DIGITALIO" pad="7"/>
@@ -1147,14 +1148,14 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="SCL"/>
 <contactref element="CHAIN_OUT" pad="4"/>
 <wire x1="68.46" y1="1.735" x2="73.54" y2="23.27" width="0" layer="19" extent="1-1"/>
-<wire x1="20.91" y1="22.63" x2="68.46" y2="1.735" width="0" layer="19" extent="1-1"/>
+<wire x1="20.91" y1="23.28" x2="68.46" y2="1.735" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="DIGITALIO" pad="3"/>
 <contactref element="U$3" pad="SDA"/>
 <contactref element="CHAIN_OUT" pad="3"/>
 <wire x1="68.46" y1="4.275" x2="73.54" y2="20.73" width="0" layer="19" extent="1-1"/>
-<wire x1="23.45" y1="22.63" x2="68.46" y2="4.275" width="0" layer="19" extent="1-1"/>
+<wire x1="23.45" y1="23.28" x2="68.46" y2="4.275" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
