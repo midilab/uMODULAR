@@ -1278,6 +1278,7 @@ thin small outline package</description>
 <part name="R19" library="Seeed-Resistor-2016" deviceset="SMD-RES-220R-5%-1/10W(0603)" device="" value="220R"/>
 <part name="R20" library="Seeed-Resistor-2016" deviceset="SMD-RES-220R-5%-1/10W(0603)" device="" value="220R"/>
 <part name="C6" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" value="100nf"/>
+<part name="CHAIN_OUT" library="con-lstb" deviceset="MA05-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1328,6 +1329,7 @@ thin small outline package</description>
 <instance part="R19" gate="G$1" x="111.76" y="33.02"/>
 <instance part="R20" gate="G$1" x="129.54" y="30.48"/>
 <instance part="C6" gate="G$1" x="76.2" y="60.96" rot="R90"/>
+<instance part="CHAIN_OUT" gate="G$1" x="45.72" y="195.58"/>
 </instances>
 <busses>
 </busses>
@@ -1453,6 +1455,11 @@ thin small outline package</description>
 <wire x1="129.54" y1="238.76" x2="109.22" y2="238.76" width="0.1524" layer="91"/>
 <label x="109.22" y="238.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="10"/>
+<wire x1="38.1" y1="200.66" x2="22.86" y2="200.66" width="0.1524" layer="91"/>
+<label x="22.86" y="200.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -1526,6 +1533,11 @@ thin small outline package</description>
 <wire x1="129.54" y1="241.3" x2="109.22" y2="241.3" width="0.1524" layer="91"/>
 <label x="109.22" y="241.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="9"/>
+<wire x1="53.34" y1="200.66" x2="71.12" y2="200.66" width="0.1524" layer="91"/>
+<label x="60.96" y="200.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_CLOCK" class="0">
 <segment>
@@ -1542,6 +1554,11 @@ thin small outline package</description>
 <pinref part="U6" gate="U1" pin="SCK"/>
 <wire x1="48.26" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="25.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="7"/>
+<wire x1="53.34" y1="198.12" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
+<label x="60.96" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -1575,9 +1592,14 @@ thin small outline package</description>
 <label x="35.56" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DIGITALIO" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="231.14" x2="10.16" y2="231.14" width="0.1524" layer="91"/>
-<label x="10.16" y="231.14" size="1.778" layer="95"/>
+<pinref part="CHAIN_OUT" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="190.5" x2="71.12" y2="190.5" width="0.1524" layer="91"/>
+<label x="60.96" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIGITALIO" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="231.14" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
+<label x="68.58" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1678,6 +1700,11 @@ thin small outline package</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="133.35" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="6"/>
+<wire x1="38.1" y1="195.58" x2="22.86" y2="195.58" width="0.1524" layer="91"/>
+<label x="22.86" y="195.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_CS2" class="0">
 <segment>
@@ -1686,9 +1713,14 @@ thin small outline package</description>
 <label x="25.4" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DIGITALIO" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="231.14" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
-<label x="68.58" y="231.14" size="1.778" layer="95"/>
+<pinref part="CHAIN_OUT" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="190.5" x2="22.86" y2="190.5" width="0.1524" layer="91"/>
+<label x="22.86" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIGITALIO" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="231.14" x2="10.16" y2="231.14" width="0.1524" layer="91"/>
+<label x="10.16" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MOSI_CHAIN" class="0">
@@ -1696,6 +1728,11 @@ thin small outline package</description>
 <pinref part="U6" gate="U1" pin="QH*"/>
 <wire x1="68.58" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <label x="88.9" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="8"/>
+<wire x1="38.1" y1="198.12" x2="22.86" y2="198.12" width="0.1524" layer="91"/>
+<label x="22.86" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1821,6 +1858,11 @@ thin small outline package</description>
 <wire x1="129.54" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 <label x="109.22" y="236.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="4"/>
+<wire x1="38.1" y1="193.04" x2="22.86" y2="193.04" width="0.1524" layer="91"/>
+<label x="22.86" y="193.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
@@ -1832,6 +1874,11 @@ thin small outline package</description>
 <pinref part="U$3" gate="G$1" pin="SDA"/>
 <wire x1="129.54" y1="233.68" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
 <label x="109.22" y="233.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CHAIN_OUT" gate="G$1" pin="3"/>
+<wire x1="53.34" y1="193.04" x2="71.12" y2="193.04" width="0.1524" layer="91"/>
+<label x="60.96" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
