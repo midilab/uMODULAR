@@ -2725,10 +2725,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.934" y="14.278" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="52.609" y="14.367" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R9" library="rcl" package="0204/7@1" value="2.2k" x="44.55" y="58.45" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.1454" y="65.09" size="0.9906" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="45.0326" y="56.8244" size="0.9906" layer="27" ratio="10" rot="R90"/>
-</element>
 <element name="POWER" library="SparkFun-Connectors" package="1X02_LOCK_LONGPADS" value="+5V" x="25.83" y="75.7" smashed="yes">
 <attribute name="NAME" x="24.56" y="77.351" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="24.63" y="73.394" size="0.6096" layer="27" font="vector" ratio="20"/>
@@ -2952,7 +2948,6 @@ design rules under a new name.</description>
 <wire x1="13.12" y1="45.4" x2="15.905" y2="48.185" width="0.3048" layer="16"/>
 </signal>
 <signal name="SPI_CLOCK">
-<contactref element="DIGITALIO" pad="7"/>
 <contactref element="U1" pad="52"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="SPI3" pad="5"/>
@@ -2969,12 +2964,6 @@ design rules under a new name.</description>
 <wire x1="28.75" y1="11.45" x2="30.25" y2="12.95" width="0.3048" layer="1"/>
 <wire x1="30.25" y1="12.95" x2="30.25" y2="13.775" width="0.3048" layer="1"/>
 <wire x1="30.25" y1="13.775" x2="30.265" y2="13.79" width="0.3048" layer="1"/>
-<wire x1="34.25" y1="59.785" x2="34.265" y2="59.785" width="0.3048" layer="16"/>
-<wire x1="34.265" y1="59.785" x2="35.55" y2="58.5" width="0.3048" layer="16"/>
-<wire x1="35.55" y1="58.5" x2="35.55" y2="53.6" width="0.3048" layer="16"/>
-<wire x1="35.55" y1="53.6" x2="36.8" y2="52.35" width="0.3048" layer="16"/>
-<wire x1="36.8" y1="52.35" x2="36.8" y2="50.78" width="0.3048" layer="16"/>
-<wire x1="36.8" y1="50.78" x2="36.79" y2="50.77" width="0.3048" layer="16"/>
 <wire x1="36.79" y1="50.77" x2="36.79" y2="50.76" width="0.3048" layer="1"/>
 <wire x1="36.79" y1="50.76" x2="38.05" y2="49.5" width="0.3048" layer="1"/>
 <wire x1="38.05" y1="49.5" x2="38.05" y2="44.4" width="0.3048" layer="1"/>
@@ -2999,7 +2988,6 @@ design rules under a new name.</description>
 <contactref element="SPI1" pad="6"/>
 <contactref element="U1" pad="50"/>
 <contactref element="IC1" pad="2"/>
-<contactref element="R9" pad="1"/>
 <contactref element="SPI2" pad="6"/>
 <contactref element="SPI3" pad="6"/>
 <wire x1="17.595" y1="21.46" x2="17.595" y2="20.345" width="0.3048" layer="16"/>
@@ -3010,12 +2998,6 @@ design rules under a new name.</description>
 <wire x1="12.825" y1="9.225" x2="13.55" y2="9.95" width="0.3048" layer="1"/>
 <wire x1="13.55" y1="9.95" x2="14.15" y2="9.95" width="0.3048" layer="1"/>
 <wire x1="13.75" y1="10.35" x2="14.15" y2="9.95" width="0.3048" layer="16"/>
-<wire x1="44.55" y1="54.64" x2="44.34" y2="54.64" width="0.3048" layer="16"/>
-<wire x1="44.34" y1="54.64" x2="42.1" y2="52.4" width="0.3048" layer="16"/>
-<wire x1="42.1" y1="52.4" x2="39.05" y2="52.4" width="0.3048" layer="16"/>
-<wire x1="39.05" y1="52.4" x2="38.05" y2="51.4" width="0.3048" layer="16"/>
-<wire x1="38.05" y1="51.4" x2="38.05" y2="49.49" width="0.3048" layer="16"/>
-<wire x1="38.05" y1="49.49" x2="36.79" y2="48.23" width="0.3048" layer="16"/>
 <wire x1="36.79" y1="48.23" x2="36.79" y2="47.94" width="0.3048" layer="16"/>
 <wire x1="36.79" y1="47.94" x2="35.55" y2="46.7" width="0.3048" layer="16"/>
 <wire x1="35.55" y1="46.7" x2="35.55" y2="40.33" width="0.3048" layer="16"/>
@@ -3037,7 +3019,6 @@ design rules under a new name.</description>
 <wire x1="24.25" y1="9.95" x2="14.15" y2="9.95" width="0.3048" layer="1"/>
 </signal>
 <signal name="SPI_MOSI">
-<contactref element="DIGITALIO" pad="8"/>
 <contactref element="U1" pad="51"/>
 <contactref element="IC1" pad="5"/>
 <contactref element="SPI1" pad="8"/>
@@ -3062,10 +3043,6 @@ design rules under a new name.</description>
 <wire x1="24.25" y1="12.05" x2="25.2" y2="13" width="0.3048" layer="1"/>
 <wire x1="25.2" y1="13" x2="25.2" y2="13.775" width="0.3048" layer="1"/>
 <wire x1="25.2" y1="13.775" x2="25.185" y2="13.79" width="0.3048" layer="1"/>
-<wire x1="34.25" y1="57.245" x2="34.25" y2="52.65" width="0.3048" layer="16"/>
-<wire x1="34.25" y1="52.65" x2="35.5" y2="51.4" width="0.3048" layer="16"/>
-<wire x1="35.5" y1="51.4" x2="35.5" y2="49.48" width="0.3048" layer="16"/>
-<wire x1="35.5" y1="49.48" x2="34.25" y2="48.23" width="0.3048" layer="16"/>
 <wire x1="34.25" y1="48.23" x2="34.25" y2="48" width="0.3048" layer="1"/>
 <wire x1="34.25" y1="48" x2="35.55" y2="46.7" width="0.3048" layer="1"/>
 <wire x1="35.55" y1="46.7" x2="35.55" y2="40.39" width="0.3048" layer="1"/>
@@ -3080,14 +3057,6 @@ design rules under a new name.</description>
 <wire x1="26.4" y1="22.7" x2="27.15" y2="23.45" width="0.3048" layer="1"/>
 <wire x1="27.15" y1="23.45" x2="27.805" y2="23.45" width="0.3048" layer="1"/>
 <wire x1="27.805" y1="23.45" x2="34.21" y2="29.855" width="0.3048" layer="1"/>
-</signal>
-<signal name="SPI_SS5">
-<contactref element="U1" pad="9"/>
-<contactref element="DIGITALIO" pad="1"/>
-<wire x1="41.87" y1="59.785" x2="45.535" y2="59.785" width="0.3048" layer="16"/>
-<wire x1="45.535" y1="59.785" x2="48.85" y2="63.1" width="0.3048" layer="16"/>
-<wire x1="48.85" y1="63.1" x2="50.914" y2="63.1" width="0.3048" layer="16"/>
-<wire x1="50.914" y1="63.1" x2="50.925" y2="63.089" width="0.3048" layer="16"/>
 </signal>
 <signal name="SPI_SS3">
 <contactref element="SPI3" pad="1"/>
@@ -3107,14 +3076,6 @@ design rules under a new name.</description>
 <wire x1="45.85" y1="12.95" x2="47.05" y2="14.15" width="0.3048" layer="1"/>
 <wire x1="47.05" y1="14.15" x2="47.05" y2="24.6" width="0.3048" layer="1"/>
 <wire x1="47.05" y1="24.6" x2="43.55" y2="28.1" width="0.3048" layer="1"/>
-</signal>
-<signal name="SPI_SS4">
-<contactref element="U1" pad="8"/>
-<contactref element="DIGITALIO" pad="2"/>
-<wire x1="41.87" y1="57.245" x2="45.495" y2="57.245" width="0.3048" layer="16"/>
-<wire x1="45.495" y1="57.245" x2="48.8" y2="60.55" width="0.3048" layer="16"/>
-<wire x1="48.8" y1="60.55" x2="50.924" y2="60.55" width="0.3048" layer="16"/>
-<wire x1="50.924" y1="60.55" x2="50.925" y2="60.549" width="0.3048" layer="16"/>
 </signal>
 <signal name="SPI_SS2">
 <contactref element="SPI2" pad="1"/>
@@ -3826,14 +3787,6 @@ design rules under a new name.</description>
 <wire x1="41.85" y1="28.4" x2="41.85" y2="29.835" width="0.3048" layer="16"/>
 <wire x1="41.85" y1="29.835" x2="41.83" y2="29.855" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$9">
-<contactref element="DIGITALIO" pad="6"/>
-<contactref element="R9" pad="2"/>
-<wire x1="44.55" y1="62.26" x2="39.86" y2="62.26" width="0.3048" layer="16"/>
-<wire x1="39.86" y1="62.26" x2="38.05" y2="60.45" width="0.3048" layer="16"/>
-<wire x1="38.05" y1="60.45" x2="38.05" y2="58.505" width="0.3048" layer="16"/>
-<wire x1="38.05" y1="58.505" x2="36.79" y2="57.245" width="0.3048" layer="16"/>
-</signal>
 <signal name="UART_TX3_3_3V">
 <contactref element="SERIAL1" pad="3"/>
 <contactref element="IC2" pad="15"/>
@@ -3853,6 +3806,60 @@ design rules under a new name.</description>
 <wire x1="49.35" y1="55.25" x2="49.3" y2="55.3" width="0.3048" layer="16"/>
 <via x="49.3" y="55.3" extent="1-16" drill="0.6" diameter="1.4224"/>
 <wire x1="49.3" y1="55.3" x2="48.8" y2="55.8" width="0.3048" layer="1"/>
+</signal>
+<signal name="SR_CLOCK">
+<contactref element="DIGITALIO" pad="7"/>
+<contactref element="U1" pad="12"/>
+<wire x1="34.25" y1="59.785" x2="34.25" y2="61.5" width="0.3048" layer="16"/>
+<wire x1="34.25" y1="61.5" x2="35.93" y2="63.18" width="0.3048" layer="16"/>
+<wire x1="35.93" y1="63.18" x2="44.01" y2="63.18" width="0.3048" layer="16"/>
+<wire x1="44.01" y1="63.18" x2="46.1" y2="65.27" width="0.3048" layer="16"/>
+<wire x1="46.1" y1="65.27" x2="46.1" y2="67.95" width="0.3048" layer="16"/>
+<wire x1="46.1" y1="67.95" x2="48.87" y2="70.72" width="0.3048" layer="16"/>
+<wire x1="48.87" y1="70.72" x2="50.914" y2="70.72" width="0.3048" layer="16"/>
+<wire x1="50.914" y1="70.72" x2="50.925" y2="70.709" width="0.3048" layer="16"/>
+</signal>
+<signal name="SR_DATA_165">
+<contactref element="DIGITALIO" pad="6"/>
+<contactref element="U1" pad="11"/>
+<wire x1="36.79" y1="57.245" x2="36.79" y2="56.54" width="0.3048" layer="16"/>
+<wire x1="36.79" y1="56.54" x2="38.95" y2="54.38" width="0.3048" layer="16"/>
+<wire x1="38.95" y1="54.38" x2="44.52" y2="54.38" width="0.3048" layer="16"/>
+<wire x1="44.52" y1="54.38" x2="48.61" y2="58.47" width="0.3048" layer="16"/>
+<wire x1="48.61" y1="58.47" x2="51.84" y2="58.47" width="0.3048" layer="16"/>
+<wire x1="51.84" y1="58.47" x2="52.84" y2="59.47" width="0.3048" layer="16"/>
+<wire x1="52.84" y1="59.47" x2="52.84" y2="67.54" width="0.3048" layer="16"/>
+<wire x1="52.84" y1="67.54" x2="52.21" y2="68.17" width="0.3048" layer="16"/>
+<wire x1="52.21" y1="68.17" x2="50.926" y2="68.17" width="0.3048" layer="16"/>
+<wire x1="50.926" y1="68.17" x2="50.925" y2="68.169" width="0.3048" layer="16"/>
+</signal>
+<signal name="SR_DATA_595">
+<contactref element="DIGITALIO" pad="8"/>
+<contactref element="U1" pad="10"/>
+<wire x1="34.25" y1="57.245" x2="34.475" y2="57.245" width="0.3048" layer="16"/>
+<wire x1="34.475" y1="57.245" x2="35.55" y2="58.32" width="0.3048" layer="16"/>
+<wire x1="35.55" y1="58.32" x2="35.55" y2="60.88" width="0.3048" layer="16"/>
+<wire x1="35.55" y1="60.88" x2="36.09" y2="61.42" width="0.3048" layer="16"/>
+<wire x1="36.09" y1="61.42" x2="44.7" y2="61.42" width="0.3048" layer="16"/>
+<wire x1="44.7" y1="61.42" x2="48.92" y2="65.64" width="0.3048" layer="16"/>
+<wire x1="48.92" y1="65.64" x2="50.914" y2="65.64" width="0.3048" layer="16"/>
+<wire x1="50.914" y1="65.64" x2="50.925" y2="65.629" width="0.3048" layer="16"/>
+</signal>
+<signal name="LATCH_165">
+<contactref element="DIGITALIO" pad="1"/>
+<contactref element="U1" pad="9"/>
+<wire x1="45.535" y1="59.785" x2="48.85" y2="63.1" width="0.3048" layer="16"/>
+<wire x1="48.85" y1="63.1" x2="50.914" y2="63.1" width="0.3048" layer="16"/>
+<wire x1="50.914" y1="63.1" x2="50.925" y2="63.089" width="0.3048" layer="16"/>
+<wire x1="45.535" y1="59.785" x2="41.87" y2="59.785" width="0.3048" layer="16"/>
+</signal>
+<signal name="LATCH_595">
+<contactref element="DIGITALIO" pad="2"/>
+<contactref element="U1" pad="8"/>
+<wire x1="45.495" y1="57.245" x2="48.8" y2="60.55" width="0.3048" layer="16"/>
+<wire x1="48.8" y1="60.55" x2="50.924" y2="60.55" width="0.3048" layer="16"/>
+<wire x1="50.924" y1="60.55" x2="50.925" y2="60.549" width="0.3048" layer="16"/>
+<wire x1="45.495" y1="57.245" x2="41.87" y2="57.245" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <errors>
