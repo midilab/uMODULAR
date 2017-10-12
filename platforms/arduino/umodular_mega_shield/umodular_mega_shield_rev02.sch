@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9666,18 +9666,8 @@ part number 2062-2P from STA</description>
 <pinref part="SPI1" gate="G$1" pin="5"/>
 <wire x1="53.34" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="11"/>
-<wire x1="118.11" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="129.54" y="15.24" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SPI_MISO" class="0">
-<segment>
-<pinref part="SPI1" gate="G$1" pin="6"/>
-<wire x1="38.1" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
-<label x="12.7" y="114.3" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="50"/>
 <wire x1="200.279" y1="102.87" x2="220.98" y2="102.87" width="0.1524" layer="91"/>
@@ -9724,11 +9714,6 @@ part number 2062-2P from STA</description>
 <wire x1="36.83" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SPI3" gate="G$1" pin="8"/>
 <label x="12.7" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="9"/>
-<wire x1="118.11" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
-<label x="129.54" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_SS3" class="0">
@@ -10384,6 +10369,43 @@ part number 2062-2P from STA</description>
 <wire x1="159.639" y1="118.11" x2="132.08" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="8"/>
 <label x="116.84" y="118.11" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDCARD_MOSI" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="38"/>
+<wire x1="200.279" y1="133.35" x2="221.615" y2="133.35" width="0.1524" layer="91"/>
+<label x="220.98" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="9"/>
+<wire x1="118.11" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="129.54" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDCARD_CLOCK" class="0">
+<segment>
+<wire x1="200.279" y1="130.81" x2="221.615" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="221.615" y1="130.81" x2="221.615" y2="130.683" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="39"/>
+<label x="220.98" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="11"/>
+<wire x1="118.11" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
+<label x="129.54" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDCARD_MISO" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="40"/>
+<wire x1="200.279" y1="128.27" x2="221.615" y2="128.27" width="0.1524" layer="91"/>
+<label x="220.98" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SPI1" gate="G$1" pin="6"/>
+<wire x1="38.1" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+<label x="12.7" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
