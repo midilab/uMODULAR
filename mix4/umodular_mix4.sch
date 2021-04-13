@@ -6141,8 +6141,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="37.6" y1="-4.5" x2="37.6" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="37.6" y1="4.5" x2="-37.6" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-37.6" y1="4.5" x2="-37.6" y2="-4.5" width="0.2032" layer="21"/>
-<pad name="1" x="-36.75" y="-1.75" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="2A" x="-36.75" y="1.75" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="2" x="-36.75" y="-1.75" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="1" x="-36.75" y="1.75" drill="1.2" diameter="2.1844" rot="R90"/>
 <pad name="3" x="36.75" y="1.75" drill="1.2" diameter="2.1844"/>
 <pad name="SUPPORT" x="-32.6" y="-4.2" drill="1.7" diameter="2.1844" rot="R90"/>
 <pad name="SUPPORT1" x="-31.4" y="4.2" drill="1.7" diameter="2.1844" rot="R90"/>
@@ -6171,9 +6171,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
 <wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
 <wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="5.08" y="-10.16" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="-2.54" y="-10.16" size="1.778" layer="95" rot="R90">&gt;Value</text>
 </symbol>
@@ -6187,9 +6187,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <devices>
 <device name="" package="SLIDER">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2A"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10775,7 +10775,7 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <label x="381" y="172.72" size="1.778" layer="95" rot="R270"/>
-<pinref part="FADER_1" gate="G$1" pin="A"/>
+<pinref part="FADER_1" gate="G$1" pin="3"/>
 <wire x1="381" y1="231.14" x2="381" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="381" y1="223.52" x2="381" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="381" y1="215.9" x2="381" y2="208.28" width="0.1524" layer="91"/>
@@ -10785,11 +10785,11 @@ SMT- SWCH-08247</description>
 <wire x1="381" y1="185.42" x2="381" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="381" y1="177.8" x2="381" y2="170.18" width="0.1524" layer="91"/>
 <junction x="381" y="177.8"/>
-<pinref part="FADER_2" gate="G$1" pin="A"/>
+<pinref part="FADER_2" gate="G$1" pin="3"/>
 <junction x="381" y="185.42"/>
-<pinref part="FADER_3" gate="G$1" pin="A"/>
+<pinref part="FADER_3" gate="G$1" pin="3"/>
 <junction x="381" y="193.04"/>
-<pinref part="FADER_4" gate="G$1" pin="A"/>
+<pinref part="FADER_4" gate="G$1" pin="3"/>
 <junction x="381" y="200.66"/>
 <pinref part="POT_4" gate="G$1" pin="A"/>
 <pinref part="POT_3" gate="G$1" pin="A"/>
@@ -10860,28 +10860,28 @@ SMT- SWCH-08247</description>
 <segment>
 <wire x1="373.38" y1="182.88" x2="317.5" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="X0"/>
-<pinref part="FADER_1" gate="G$1" pin="S"/>
+<pinref part="FADER_1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$275" class="0">
 <segment>
 <wire x1="373.38" y1="190.5" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="X1"/>
-<pinref part="FADER_2" gate="G$1" pin="S"/>
+<pinref part="FADER_2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$276" class="0">
 <segment>
 <wire x1="373.38" y1="198.12" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="X2"/>
-<pinref part="FADER_3" gate="G$1" pin="S"/>
+<pinref part="FADER_3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$277" class="0">
 <segment>
 <wire x1="373.38" y1="205.74" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="X3"/>
-<pinref part="FADER_4" gate="G$1" pin="S"/>
+<pinref part="FADER_4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$278" class="0">
@@ -10920,7 +10920,7 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <label x="365.76" y="172.72" size="1.778" layer="95" rot="R270"/>
-<pinref part="FADER_1" gate="G$1" pin="E"/>
+<pinref part="FADER_1" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="231.14" x2="365.76" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="223.52" x2="365.76" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="215.9" x2="365.76" y2="208.28" width="0.1524" layer="91"/>
@@ -10930,11 +10930,11 @@ SMT- SWCH-08247</description>
 <wire x1="365.76" y1="185.42" x2="365.76" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="177.8" x2="365.76" y2="170.18" width="0.1524" layer="91"/>
 <junction x="365.76" y="177.8"/>
-<pinref part="FADER_2" gate="G$1" pin="E"/>
+<pinref part="FADER_2" gate="G$1" pin="1"/>
 <junction x="365.76" y="185.42"/>
-<pinref part="FADER_3" gate="G$1" pin="E"/>
+<pinref part="FADER_3" gate="G$1" pin="1"/>
 <junction x="365.76" y="193.04"/>
-<pinref part="FADER_4" gate="G$1" pin="E"/>
+<pinref part="FADER_4" gate="G$1" pin="1"/>
 <junction x="365.76" y="200.66"/>
 <pinref part="POT_4" gate="G$1" pin="E"/>
 <pinref part="POT_3" gate="G$1" pin="E"/>
