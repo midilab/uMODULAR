@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
-Title ""
+Title "MIDI-IO-5v"
 Date ""
-Rev ""
-Comp ""
+Rev "01"
+Comp "midilab"
 Comment1 ""
 Comment2 ""
 Comment3 ""
