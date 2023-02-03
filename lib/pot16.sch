@@ -1,0 +1,450 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 1700 2500 1500
+Wire Wire Line
+	2300 1500 2500 1500
+Wire Wire Line
+	5100 3200 2900 2600
+Wire Wire Line
+	5100 2900 2900 2500
+Wire Wire Line
+	5100 2600 2900 2400
+Wire Wire Line
+	5100 2300 2900 2300
+Wire Wire Line
+	5100 2000 2900 2200
+Wire Wire Line
+	5100 1700 2900 2100
+Wire Wire Line
+	5100 1400 2900 2000
+Wire Wire Line
+	5100 1100 2900 1900
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA649E
+P 5100 2150
+F 0 "POT_?" V 5200 1550 59  0000 L BNN
+F 1 "10kb" V 5100 1550 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 2150 50  0001 C CNN
+F 3 "" H 5100 2150 50  0001 C CNN
+	1    5100 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 C1794DFC
+P 5100 1850
+F 0 "POT_?" V 5200 1250 59  0000 L BNN
+F 1 "10kb" V 5100 1250 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 1850 50  0001 C CNN
+F 3 "" H 5100 1850 50  0001 C CNN
+	1    5100 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA6491
+P 5100 1550
+F 0 "POT_?" V 5200 950 59  0000 L BNN
+F 1 "10kb" V 5100 950 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 1550 50  0001 C CNN
+F 3 "" H 5100 1550 50  0001 C CNN
+	1    5100 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 C19FA782
+P 5100 1250
+F 0 "POT_?" V 5200 650 59  0000 L BNN
+F 1 "10kb" V 5100 650 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 1250 50  0001 C CNN
+F 3 "" H 5100 1250 50  0001 C CNN
+	1    5100 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA64A0
+P 5100 2450
+F 0 "POT_?" V 5200 1850 59  0000 L BNN
+F 1 "10kb" V 5100 1850 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 2450 50  0001 C CNN
+F 3 "" H 5100 2450 50  0001 C CNN
+	1    5100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 F1E6FF9B
+P 5100 2750
+F 0 "POT_?" V 5200 2150 59  0000 L BNN
+F 1 "10kb" V 5100 2150 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 2750 50  0001 C CNN
+F 3 "" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA648F
+P 5100 3050
+F 0 "POT_?" V 5200 2450 59  0000 L BNN
+F 1 "10kb" V 5100 2450 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 3050 50  0001 C CNN
+F 3 "" H 5100 3050 50  0001 C CNN
+	1    5100 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA649F
+P 5100 3350
+F 0 "POT_?" V 5200 2750 59  0000 L BNN
+F 1 "10kb" V 5100 2750 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 3350 50  0001 C CNN
+F 3 "" H 5100 3350 50  0001 C CNN
+	1    5100 3350
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1900 1900 0    50   Input ~ 0
+MUX_ANALOG_PORT_1
+Text HLabel 1900 5300 0    50   Input ~ 0
+MUX_ANALOG_PORT_2
+Wire Wire Line
+	2200 1900 1900 1900
+Text HLabel 1900 2100 0    50   Input ~ 0
+MUX_CTRL_A
+Text HLabel 1900 2200 0    50   Input ~ 0
+MUX_CTRL_B
+Text HLabel 1900 2300 0    50   Input ~ 0
+MUX_CTRL_C
+Text HLabel 1900 2500 0    50   Input ~ 0
+AGND
+Text HLabel 2500 3100 3    50   Input ~ 0
+AGND
+Text HLabel 2600 3100 3    50   Input ~ 0
+AGND
+Text HLabel 1850 1500 0    50   Input ~ 0
+AGND
+Wire Wire Line
+	1850 1500 2000 1500
+Text HLabel 2500 1250 1    50   Input ~ 0
+VCC
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 63C8141C
+P 2500 2200
+F 0 "U?" H 2750 2800 50  0000 C CNN
+F 1 "74HC4051" H 2750 2700 50  0000 C CNN
+F 2 "" H 2500 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 2500 1800 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2100 1900 2100
+Wire Wire Line
+	2200 2200 1900 2200
+Wire Wire Line
+	2200 2300 1900 2300
+Wire Wire Line
+	2200 2500 1900 2500
+Wire Wire Line
+	2500 2800 2500 3100
+Wire Wire Line
+	2600 2800 2600 3100
+$Comp
+L Device:C C?
+U 1 1 63DA6493
+P 2150 1500
+F 0 "C?" V 1898 1500 50  0000 C CNN
+F 1 "100 nF" V 1989 1500 50  0000 C CNN
+F 2 "" H 2188 1350 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1250 2500 1500
+Connection ~ 2500 1500
+Wire Wire Line
+	2500 5100 2500 4900
+Wire Wire Line
+	2300 4900 2500 4900
+Wire Wire Line
+	5100 6600 2900 6000
+Wire Wire Line
+	5100 6300 2900 5900
+Wire Wire Line
+	5100 6000 2900 5800
+Wire Wire Line
+	5100 5700 2900 5700
+Wire Wire Line
+	5100 5400 2900 5600
+Wire Wire Line
+	5100 5100 2900 5500
+Wire Wire Line
+	5100 4800 2900 5400
+Wire Wire Line
+	5100 4500 2900 5300
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63D0E6E3
+P 5100 5550
+F 0 "POT_?" V 5200 4900 59  0000 L BNN
+F 1 "10kb" V 5100 4950 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 5550 50  0001 C CNN
+F 3 "" H 5100 5550 50  0001 C CNN
+	1    5100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63D0E6ED
+P 5100 5250
+F 0 "POT_?" V 5200 4600 59  0000 L BNN
+F 1 "10kb" V 5100 4650 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 5250 50  0001 C CNN
+F 3 "" H 5100 5250 50  0001 C CNN
+	1    5100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63D0E6F7
+P 5100 4950
+F 0 "POT_?" V 5200 4300 59  0000 L BNN
+F 1 "10kb" V 5100 4350 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 4950 50  0001 C CNN
+F 3 "" H 5100 4950 50  0001 C CNN
+	1    5100 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63D0E701
+P 5100 4650
+F 0 "POT_?" V 5200 4050 59  0000 L BNN
+F 1 "10kb" V 5100 4050 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 4650 50  0001 C CNN
+F 3 "" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63D0E70B
+P 5100 5850
+F 0 "POT_?" V 5200 5200 59  0000 L BNN
+F 1 "10kb" V 5100 5250 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 5850 50  0001 C CNN
+F 3 "" H 5100 5850 50  0001 C CNN
+	1    5100 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA6499
+P 5100 6150
+F 0 "POT_?" V 5200 5500 59  0000 L BNN
+F 1 "10kb" V 5100 5550 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 6150 50  0001 C CNN
+F 3 "" H 5100 6150 50  0001 C CNN
+	1    5100 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA649A
+P 5100 6450
+F 0 "POT_?" V 5200 5800 59  0000 L BNN
+F 1 "10kb" V 5100 5850 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 6450 50  0001 C CNN
+F 3 "" H 5100 6450 50  0001 C CNN
+	1    5100 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US POT_?
+U 1 1 63DA649B
+P 5100 6750
+F 0 "POT_?" V 5200 6100 59  0000 L BNN
+F 1 "10kb" V 5100 6150 59  0000 L BNN
+F 2 "umodular_pot16:ALPS_POT" H 5100 6750 50  0001 C CNN
+F 3 "" H 5100 6750 50  0001 C CNN
+	1    5100 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 5300 1900 5300
+Text HLabel 1900 5500 0    50   Input ~ 0
+MUX_CTRL_A
+Text HLabel 1900 5600 0    50   Input ~ 0
+MUX_CTRL_B
+Text HLabel 1900 5700 0    50   Input ~ 0
+MUX_CTRL_C
+Text HLabel 1900 5900 0    50   Input ~ 0
+AGND
+Text HLabel 2500 6500 3    50   Input ~ 0
+AGND
+Text HLabel 2600 6500 3    50   Input ~ 0
+AGND
+Text HLabel 1850 4900 0    50   Input ~ 0
+AGND
+Wire Wire Line
+	1850 4900 2000 4900
+Text HLabel 4950 7050 3    50   Input ~ 0
+AGND
+Text HLabel 2500 4650 1    50   Input ~ 0
+VCC
+Text HLabel 5250 7050 3    50   Input ~ 0
+VCC
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 63D0E742
+P 2500 5600
+F 0 "U?" H 2750 6200 50  0000 C CNN
+F 1 "74HC4051" H 2750 6100 50  0000 C CNN
+F 2 "" H 2500 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 2500 5200 50  0001 C CNN
+	1    2500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5500 1900 5500
+Wire Wire Line
+	2200 5600 1900 5600
+Wire Wire Line
+	2200 5700 1900 5700
+Wire Wire Line
+	2200 5900 1900 5900
+Wire Wire Line
+	2500 6200 2500 6500
+Wire Wire Line
+	2600 6200 2600 6500
+$Comp
+L Device:C C?
+U 1 1 63DA649D
+P 2150 4900
+F 0 "C?" V 1898 4900 50  0000 C CNN
+F 1 "100 nF" V 1989 4900 50  0000 C CNN
+F 2 "" H 2188 4750 50  0001 C CNN
+F 3 "~" H 2150 4900 50  0001 C CNN
+	1    2150 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4650 2500 4900
+Connection ~ 2500 4900
+Wire Wire Line
+	4950 1250 4950 1550
+Wire Wire Line
+	5250 4650 5250 4950
+Wire Wire Line
+	4950 4650 4950 4950
+Connection ~ 4950 1550
+Wire Wire Line
+	4950 1550 4950 1850
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 4950 2150
+Connection ~ 4950 2150
+Wire Wire Line
+	4950 2150 4950 2450
+Connection ~ 4950 2450
+Wire Wire Line
+	4950 2450 4950 2750
+Connection ~ 4950 2750
+Wire Wire Line
+	4950 2750 4950 3050
+Connection ~ 4950 3050
+Wire Wire Line
+	4950 3050 4950 3350
+Connection ~ 4950 3350
+Wire Wire Line
+	4950 3350 4950 3650
+Text HLabel 5250 3650 3    50   Input ~ 0
+VCC
+Text HLabel 4950 3650 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	5250 1250 5250 1550
+Connection ~ 5250 1550
+Wire Wire Line
+	5250 1550 5250 1850
+Connection ~ 5250 1850
+Wire Wire Line
+	5250 1850 5250 2150
+Connection ~ 5250 2150
+Wire Wire Line
+	5250 2150 5250 2450
+Connection ~ 5250 2450
+Wire Wire Line
+	5250 2450 5250 2750
+Connection ~ 5250 2750
+Wire Wire Line
+	5250 2750 5250 3050
+Connection ~ 5250 3050
+Wire Wire Line
+	5250 3050 5250 3350
+Connection ~ 5250 3350
+Wire Wire Line
+	5250 3350 5250 3650
+Connection ~ 4950 4950
+Wire Wire Line
+	4950 4950 4950 5250
+Connection ~ 4950 5250
+Wire Wire Line
+	4950 5250 4950 5550
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 4950 5850
+Connection ~ 4950 5850
+Wire Wire Line
+	4950 5850 4950 6150
+Connection ~ 4950 6150
+Wire Wire Line
+	4950 6150 4950 6450
+Connection ~ 4950 6450
+Wire Wire Line
+	4950 6450 4950 6750
+Connection ~ 4950 6750
+Wire Wire Line
+	4950 6750 4950 7050
+Connection ~ 5250 4950
+Wire Wire Line
+	5250 4950 5250 5250
+Connection ~ 5250 5250
+Wire Wire Line
+	5250 5250 5250 5550
+Connection ~ 5250 5550
+Wire Wire Line
+	5250 5550 5250 5850
+Connection ~ 5250 5850
+Wire Wire Line
+	5250 5850 5250 6150
+Connection ~ 5250 6150
+Wire Wire Line
+	5250 6150 5250 6450
+Connection ~ 5250 6450
+Wire Wire Line
+	5250 6450 5250 6750
+Connection ~ 5250 6750
+Wire Wire Line
+	5250 6750 5250 7050
+$EndSCHEMATC
