@@ -22,6 +22,8 @@ DIY Roland TB303/TR808 Step Sequencer clone aimed for live interaction.
 
 A pattern grid based step sequencer that clones TB-303 and TR-808 sequencing programming and operation modes with generative engine.  
 
+You can download the app at [aciduino v2 repository](https://github.com/midilab/aciduino/tree/master/v2)  
+
 ## Oficial Website
 
 You can find more informations about uMODULAR at http://midilab.co/umodular.
