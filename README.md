@@ -1,8 +1,8 @@
 # uMODULAR
 
-uMODULAR is a **hardware** schematic and printed circuit board collection of usefull and **reusable modules** focused on user/machine/mechanical interface for **audio and visual** protocols control.
+uMODULAR is a collection of **hardware** schematics and printed circuit board focused on user interface for **audio and video** machines, applications or protocols control.
 
-The modular architecture make it easier to **create and build** your own **controller** and/or **signal processing box** for the control and/or integration of **different audio and video protocols** setups.
+The modular and **reusable architecture** making it easier to **create and build** your own **controller** and/or **signal processing box** by integrating **different audio and video protocols** setups.
 
 ## Hardware
 
@@ -10,15 +10,17 @@ Modules released under CC-BY-SA 4.0
 
 ## Drivers
 
-All the interfacing is done using a driver and interface library called uInterface to be released on july.
+All modules interfacing and programming can be done using [uCtrl](https://github.com/midilab/uCtrl) library.
 
 ## Software
 
-StepSequencer, Midi/CV/DMX controller, Generative music are some standards for uMODULAR project, all those libraries and appliactions are already writed, tested and ready to be released, i just need to work on documentation before oficial release.
+Above you'll find supported applications that runs on uMODULAR framework.
 
-## Donations
+#### Aciduino V2
 
-Any donations to keep opensource releases of my work rolling are welcome via paypal at donate@midilab.co.
+DIY Roland TB303/TR808 Step Sequencer clone aimed for live interaction.  
+
+A pattern grid based step sequencer that clones TB-303 and TR-808 sequencing programming and operation modes with generative engine.  
 
 ## Oficial Website
 
