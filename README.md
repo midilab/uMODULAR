@@ -4,10 +4,10 @@ A collection of **hardware schematics**, **PCBs**, and **libraries** for **real-
   
 ![Image of umodular-v2 series](https://midilab.co/data/uploads/2018/06/umodular-v02.jpeg)
   
-**Hardware:** Modules effortlessly combine to enhance and extend the capabilities of your device.
-**Firmware:** All the challenging and intricate aspects of real-time and concurrency in music or video applications are encapsulated within a safe and intuitive API via libraries.
+**Hardware:** Modules effortlessly combine to enhance and extend the capabilities of your device.  
+**Firmware:** All the challenging and intricate aspects of real-time and concurrency in music or video applications are encapsulated within a safe and intuitive API via libraries.  
 
-The framework provides multi-architecture support, allowing for seamless compilation across various microcontrollers without the need for manual adjustments or modifications. This ensures a streamlined development process and simplifies the programming and debugging tasks associated with real-time and concurrent operations.
+The framework provides multi-architecture support, allowing for seamless compilation across various microcontrollers without the need for manual adjustments or modifications. This ensures a streamlined development process and simplifies the programming and debugging tasks associated with real-time and concurrent operations.  
 
 ## Hardware
 
@@ -28,10 +28,10 @@ DMX: **On roadmap**
 
 The firmware libraries are built for the Arduino platform, with support for PlatformIO, and are compatible with various microcontroller architectures and boards, including classic AVRs and modern ARMs.  
   
-AVRs: ATmega168, ATmega328, ATmega16u4, ATmega32u4 and ATmega2560.  
-ARMs: ESP32, SAMD21 and All Teensy ARM microcontrollers.  
+**AVRs:** ATmega168, ATmega328, ATmega16u4, ATmega32u4 and ATmega2560.  
+**ARMs:** ESP32, SAMD21 and All Teensy ARM microcontrollers.  
   
-Boards: All AVR Arduino boards, All Teensy AVRs and ARMs, ESP32 based boards and Seedstudio XIAO M0.  
+**Boards:** All AVR Arduino boards, All Teensy AVRs and ARMs, ESP32 based boards and Seedstudio XIAO M0.  
   
 #### uCtrl
 
