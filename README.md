@@ -1,9 +1,9 @@
 # uMODULAR
 
 A collection of **hardware schematics**, **PCBs**, and **libraries** for **real-time embedded applications** in the field of music and video.
-
-https://midilab.co/data/uploads/2018/06/umodular-v02.jpeg
-
+  
+![Image of umodular-v2 series](https://midilab.co/data/uploads/2018/06/umodular-v02.jpeg)
+  
 **Hardware:** Modules effortlessly combine to enhance and extend the capabilities of your device.
 **Firmware:** All the challenging and intricate aspects of real-time and concurrency in music or video applications are encapsulated within a safe and intuitive API via libraries.
 
